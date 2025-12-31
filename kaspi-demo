@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaspi DEMO</title>
+<style>
+body { margin:0; background:#f2f2f2; font-family:-apple-system, BlinkMacSystemFont, sans-serif; }
+.phone { max-width:390px; margin:auto; background:#fff; min-height:100vh; }
+.top { background:#d70018; color:white; padding:16px; display:flex; justify-content:space-between; }
+.card { padding:20px; }
+.circle { width:90px; height:90px; background:#f5f5f5; border-radius:50%; margin:auto; font-size:36px; display:flex; align-items:center; justify-content:center; }
+input, button { width:100%; padding:12px; margin-bottom:12px; border-radius:10px; }
+button { background:#d70018; color:white; border:none; font-weight:bold; }
+.nav { position:fixed; bottom:0; width:390px; display:flex; justify-content:space-around; padding:12px 0; background:white; }
+</style>
+</head>
+<body>
+
+<p style="color:red;text-align:center">
+Бұл оқу мақсатындағы DEMO сайт. Kaspi.kz-ке қатысы жоқ.
+</p>
+
+<div class="phone">
+  <div class="top"><b>Kaspi</b><span>DEMO</span></div>
+  <div class="card">
+    <h3>Қызметке өтініш</h3>
+    <div class="circle">📷</div>
+    <input placeholder="Аты-жөні">
+    <input placeholder="ЖСН (тест)">
+    <input placeholder="Құжат нөмірі">
+    <button>Жалғастыру</button>
+  </div>
+  <div class="nav"><div>🏠</div><div>💳</div><div>🛒</div><div>👤</div></div>
+</div>
+
+</body>
+</html>
